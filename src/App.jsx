@@ -1,11 +1,11 @@
 import { useState } from 'react'
 import './App.css'
-
+import Pokedex from './components/Pokedex/Pokedex.jsx'
 function App() {
 
   return (
     <>
-      pokedex
+      <Pokedex />
     </>
   )
 }
